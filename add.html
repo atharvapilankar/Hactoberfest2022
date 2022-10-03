@@ -7,6 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <p>ADD CHANGES</p>
+    <h2>What is React Js</h2>
+    <p>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.</p>
+    <p><strong>The following is a rudimentary example of React usage for the web written in JSX and JavaScript.</strong></p>
+    <p>
+        <code>import React from 'react';
+            import ReactDOM from 'react-dom/client';
+            
+            const Greeting = () => {
+                return (
+                    <div className="hello-world">
+                        <h1>Hello, world!</h1>
+                    </div>
+                );
+            };
+            
+            const App = () => {
+                return <Greeting />;
+            };
+            
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            
+            root.render(
+                <React.StrictMode>
+                    <App />
+                </React.StrictMode>
+            );
+        </code>
+    </p>
 </body>
 </html>
