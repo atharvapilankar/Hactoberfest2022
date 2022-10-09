@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Social Media Icons</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <h1>Connect with me</h1>  
+       <div class="social-media">
+           <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+           <a href=""><i class="fa-brands fa-linkedin"></i></a>
+           <a href=""><i class="fa-regular fa-envelope"></i></a>
+           <a href=""><i class="fa-brands fa-twitter"></i></a>
+           <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+       </div>
+</body>
+</html>
+
+--------------------------------------------------------------------------CSS------------------------------------------------------------------------------------------------
+body{
+    background-color:#285A6F ;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 200px 0 100px;
+    text-align: center;
+}
+.social-media{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       a{
+           display: flex;
+           background-color: #ddd;
+           height: 50px;
+           width: 50px;
+           margin: 0 15px;
+           border-radius: 8px;
+           align-items: center;
+           justify-content: center;
+           box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), -6px -6px 10px -1px rgba(255,255,255,0.7) ;
+           border: 1px solid rgba(0,0,0,0.0);
+           transition: transform 0.5s;
+       }
+       a i{
+           font-size: 35px;
+           color: #777;
+           transition: transform 0.5s;
+       }
+       a:hover{
+        box-shadow: inset 4px 4px 6px  -1px rgba(0,0,0,0.2),inset -4px -4px 6px -1px rgba(255,255,255,0.7),-0.5px -0.5px 0px rgba(255,255,255,0.7),-4px -4px 6px -1px rgba(255,255,255,0.7);
+        border: 1px solid rgba(0,0,0,0.01);
+        transform: translateY(2px);
+       }
+       a:hover i{
+           transform: scale(0.90);
+       }
+       a:hover .fa-square-instagram{
+           color: deeppink;
+       }
+       a:hover .fa-linkedin{
+        color: darkblue;
+    }
+    a:hover .fa-envelope{
+        color: brown;
+    }
+     a:hover .fa-twitter{
+        color: #1DA1F2;
+    }
+     a:hover .fa-whatsapp{
+        color:#25D366;
+    }
