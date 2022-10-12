@@ -1,0 +1,251 @@
+<html>
+    <head><title>Vegies</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    
+    <body bgcolor="black">
+        <div class="Main-navbar"><nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <div class="d-flex align-items-center mb-3 pb-1" >
+                    <!-- <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i> -->
+                    <img id="logo" src="Images\logo.png" alt="">
+                    <span class="h1 fw-bold mb-0">Zwiggato</span>
+                  </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacts">About</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit" id="cart_btn">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account
+                            <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="navbar-content">
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <img src="Images\userPhoto.png" alt="Alternate Text" class="img-responsive">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <span>Bhaumik Patel</span>
+                                                <p class="text-muted small">
+                                                    mail@gmail.com</p>
+                                                <div class="divider">
+                                                </div>
+                                                <a href="login.html" class="btn btn-primary btn-sm active">Sign Out</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav></div>
+        <header class="bg-dark py-5" style="margin-bottom: 15px;">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">One stop destination for all your vegetables</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Grab your veggies now at exciting prizes !</p>
+                </div>
+            </div>
+        </header>
+        <div class="container pb-5 mb-sm-1" id="product-tiles">
+            <!-- Categories grid-->
+            <div class="row">
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img"><img src="Images\onions.jpg" alt="Onions"></div>
+                            
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Onions</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">22 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/onions.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img" id="carrot-image-tile"><img src="Images\carrots.jpg" alt="Shoes"></div>
+                            <!-- <div class="thumblist"><img src="https://via.placeholder.com/175x164/8A2BE2/000000" alt="Shoes"><img src="https://via.placeholder.com/175x164/8A2BE2/000000" alt="Shoes"></div> -->
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Carrots</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">29 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/carrots.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img"><img src="Images\tomatoes.jpg" alt="tomatoes"></div>
+                            <!-- <div class="thumblist"><img src="tomatoes.jpg" alt="Bags"><img src="https://via.placeholder.com/175x164/6495ED/000000" alt="Bags"></div> -->
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Tomatoes</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">18 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/tomatoes.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img"><img src="Images\cabbage.jpg" alt="Cabbages"></div>
+                            <!-- <div class="thumblist"><img src="https://via.placeholder.com/175x164/FF7F50/000000" alt="Sunglasses"><img src="https://via.placeholder.com/175x164/FF7F50/000000" alt="Sunglasses"></div> -->
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Cabbage</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">32 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/cabbage.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img"><img src="Images\Capcicum.jpg" alt="Capsicum"></div>
+                            <!-- <div class="thumblist"><img src="https://via.placeholder.com/175x164/008B8B/000000" alt="Hats"><img src="https://via.placeholder.com/175x164/008B8B/000000" alt="Hats"></div> -->
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Capsicum</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">30 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/capsicum.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Category-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card border-0 mb-grid-gutter">
+                        <a class="card-img-tiles" href="shop-style1-ls.html">
+                            <div class="main-img"><img src="Images\potatoes.jpg" alt="Potatoes"></div>
+                            <!-- <div class="thumblist"><img src="https://via.placeholder.com/175x164/9932CC/000000" alt="Gloves"><img src="https://via.placeholder.com/175x164/9932CC/000000" alt="Gloves"></div> -->
+                        </a>
+                        <div class="card-body border mt-n1 py-4 text-center">
+                            <h2 class="h5 mb-1">Potatoes</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">17 Rs./Kg</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="Products/potatoes.html">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section: Contact v.2-->
+        <a name="contacts">
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Rajeev Nagar, Bangalore, Karnataka-416602, India</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 01 234 567 89</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@zwig.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section></a>
+<!--Section: Contact v.2-->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
