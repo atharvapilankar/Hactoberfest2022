@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<div class="bg-img">
+		<h1>GeeksforGeeks</h1>
+		
+		<form class="container">
+			<b>Username</b>
+			<input type="text" placeholder="Username Please"
+					name="username" required>
+
+			<b>Password</b>
+			<input type="password" placeholder="Enter Password"
+					name="password" required>
+
+			<button type="submit" class="button">Login</button>
+		</form>
+	</div>
+</body>
+
+</html>
